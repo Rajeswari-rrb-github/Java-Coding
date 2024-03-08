@@ -1,9 +1,10 @@
 public class DoWhile {
     public static void main(String[] args) {
-        int a=10;
-        do {
-            System.out.println("meaw");
-            a++;
-        } while (a<5);
+        int counter =1;
+
+        do{
+            System.out.println("hello world "+counter);
+            counter++;
+        } while(counter <= 10);
     }
 }
