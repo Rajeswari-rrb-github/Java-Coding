@@ -1,29 +1,12 @@
-public class LogicalOperators {
-    public static void main(String[] args) {
+public class LogicalOperators{
+    // logical AND
+    public static void main(String[] args, int i) {
+        System.out.println(3>2 && 5<9);
+        System.out.println(3==2);
+        System.out.println(3>2);
+        System.out.println(3==2 || 5<0);
+        System.out.println(! (3>2));
+        System.out.println(! (3==2));
 
-        // AND operators
-        boolean a = true;
-        boolean b= false;
-        if(a && b){
-            System.out.println("Y");
-        }
-        else{
-            System.out.println("N");
-        }
-
-        // OR operator
-        if(a || b){ // pipe operator---> logical or
-            System.out.println("Y");
-        }
-        else{
-            System.out.println("N");
-        }
-
-        if(a != b){
-            System.out.println("Y");
-        }
-        else{
-            System.out.println("N");
-        }
     }
 }
